@@ -21,7 +21,7 @@ Service (EMIS), which is a database containing information on emerging markets a
 bankrupt companies were analyzed in the period 2000-2012, while the still operating companies were evaluated
 from 2007 to 2013. The dataset is very apt for our research about bankruptcy prediction because it has
 highly useful econometric indicators as attributes (features) and comes with a huge number of samples of
-Polish companies that were analyzed in 5 different time-frames: Based on the collected data ve classication
+Polish companies that were analyzed in 5 different time-frames: Based on the collected data five classification
 cases were distinguished, that depends on the forecasting period:
 1. 1st year: The data contains financial rates from 1st year of the forecasting period and corresponding
 class label that indicates bankruptcy status after 5 years.
@@ -37,11 +37,13 @@ class label that indicates bankruptcy status after 1 years.
 2.2 Proposed Methodologies
 In this project we plan to utilize Supervised Machine Learning techniques to reach our goals. The tentative
 project plan could be segregated into the following steps:
- EDA (Exploratory Data Analysis): To analyze patterns within the data,extract dependencies,
+ 
+ EDA (Exploratory Data Analysis): To analyze patterns within the data,extract dependencies,
 compare correlations, identify missing values and recognize imbalances if any and use suitable techniques
 like mean Imputation,k-nearest neighbors imputation,undersampling, SMOTE analysis, etc. to
 tackle them.
- Training Models: We will train various classication techniques on our data to achieve the task of
+
+Training Models: We will train various classification techniques on our data to achieve the task of
 completing our objective of predicting bankruptcy of a given company. The techniques which we plan
 to implement are:
 1. Gaussian Naive Bayes
